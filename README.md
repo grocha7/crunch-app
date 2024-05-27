@@ -117,4 +117,6 @@ You can test each part separately or together using the following commands:
    - **Error Handling**: Error handling with status requests is managed within the common folder.
    - **Testing**: I did not implement end-to-end (e2e) tests for the controller due to the complexity and the time required to set up a separate test database. Given the simplicity of the project, I prioritized other tasks, but e2e tests could have been added for more thorough testing.
    - **API Documentation**: Swagger was used for API documentation, which is exposed at `/api`. You can access it at [http://localhost:8080/api](http://localhost:8080/api) while server is running.
+   - **Authentication and Security**: A middleware for authentication using JWT and password encryption using crypto-js could have been implemented for added security. However, due to time constraints and the need to simplify the project for progress, these aspects were abstracted. In a more serious project, these security measures would definitely be included.
+
 
